@@ -3,7 +3,7 @@ R = [22, 3, 9, 0, 111, 4]
 C = [6+5j, 1+5j, 4+2j, -4+1j, 8-4j]
 S = ['abvg', 'bimbimbambam', 'abvgeezh', 'bim', 'bam', 'qwerty']
 A = [[1, 2, 3], [1, 2], [1, 2, 3, 4, 5], [1, 2, 3, 4]]
-print(f'{R}\n{C}\n{S}\n{A}')
+print(f'{R}\n{C}\n{S}\n{A} ')
 R.sort()
 print('Сортировка по возрастанию',R)
 C.sort(key=lambda x: abs(x))
