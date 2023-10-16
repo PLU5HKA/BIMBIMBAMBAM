@@ -3,8 +3,8 @@ from scipy import integrate
 # Аналитически
 x = sp.Symbol('x')
 f = str(input('f(x)='))
-a = int(input("a="))
-b = int(input("b="))
+a = str(input("a="))
+b = str(input("b="))
 print(sp.integrate(f,(x,a,b)))
 # Численно
 f2 = str(input('f2(x)='))
