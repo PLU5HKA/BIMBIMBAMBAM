@@ -10,4 +10,6 @@ print(C)
 S = ['abvg', 'bimbimbambam', 'abvgeezh', 'bim', 'bam', 'qwerty']
 S.sort(key=len)
 print(S)
-
+print(tuple(sorted(S)))
+A = [[1, 2, 3], [1, 2], [1, 2, 3, 4, 5], [1, 2, 3, 4]]
+print(tuple(sorted(A, key=len)))
