@@ -8,6 +8,7 @@ def statistics(arr):
     squared_diff_sum = sum((x - average) ** 2 for x in arr)
     standard_deviation = math.sqrt(squared_diff_sum / len(arr))
     fifth_central_moment = scipy.stats.moment(arr, 5)
+    # fifth_central_moment = sum((x - average) ** 5 for x in arr) / len(arr)
     averageloc = (minimum + maximum + average + squared_diff_sum + fifth_central_moment)/5
     return minimum, maximum, average, standard_deviation, fifth_central_moment, averageloc
 
